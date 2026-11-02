@@ -1,5 +1,7 @@
 # Shipshape MCP server
 
+<!-- mcp-name: io.github.hybridforgelab/shipshape-mcp -->
+
 Let your coding agent lint a Dockerfile or Kubernetes manifest before handing it over: root in the final stage, unpinned base images, `curl | sh`, secrets in ENV/ARG, Pod Security Standards, resources and probes.
 
 The server is open source (MIT). It calls the [Shipshape API](https://shipshape.hybridforgelab.com), which is paid, with a free plan.
