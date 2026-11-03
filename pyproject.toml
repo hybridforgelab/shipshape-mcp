@@ -10,6 +10,9 @@ dependencies = ["mcp>=2.3,<3", "httpx>=0.27"]
 
 [project.urls]
 Homepage = "https://shipshape.hybridforgelab.com"
+Repository = "https://github.com/hybridforgelab/shipshape-mcp"
+Issues = "https://github.com/hybridforgelab/shipshape-mcp/issues"
+Changelog = "https://github.com/hybridforgelab/shipshape-mcp/blob/main/CHANGELOG.md"
 
 [project.scripts]
 shipshape-mcp = "shipshape_mcp.server:main"
