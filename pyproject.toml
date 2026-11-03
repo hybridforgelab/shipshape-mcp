@@ -1,6 +1,6 @@
 [project]
 name = "hybridforgelab-shipshape-mcp"
-version = "0.2.1"
+version = "0.2.2"
 description = "Dockerfile and Kubernetes lint for coding agents: Pod Security Standards, A–F grade, a fix per finding. Bring your own RapidAPI or api.market key."
 readme = "README.md"
 license = "MIT"
