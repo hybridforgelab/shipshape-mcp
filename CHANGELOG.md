@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/hybridforgelab/shipshape-mcp/compare/hybridforgelab-shipshape-mcp-v0.2.0...hybridforgelab-shipshape-mcp-v0.2.1) (2026-11-03)
+
+
+### Bug Fixes
+
+* declare all four tool hints ([#7](https://github.com/hybridforgelab/shipshape-mcp/issues/7)) ([c91633f](https://github.com/hybridforgelab/shipshape-mcp/commit/c91633fbe91414d9958976b383041962a45d025e))
+
 ## [0.2.0](https://github.com/hybridforgelab/shipshape-mcp/compare/hybridforgelab-shipshape-mcp-v0.1.0...hybridforgelab-shipshape-mcp-v0.2.0) (2026-11-02)
 
 
