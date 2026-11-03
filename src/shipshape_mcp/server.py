@@ -29,6 +29,8 @@ server = MCPServer(
     website_url="https://shipshape.hybridforgelab.com",
 )
 
+READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, idempotent_hint=True, open_world_hint=True)
+
 
 def _type_for(path: str) -> str:
     name = Path(path).name.lower()
@@ -37,7 +39,7 @@ def _type_for(path: str) -> str:
     return "auto"
 
 
-@server.tool(annotations=ToolAnnotations(read_only_hint=True, open_world_hint=True))
+@server.tool(annotations=READ_ONLY)
 async def lint(
     content: Annotated[str | dict | list | None,
                        Field(description="The Dockerfile or manifest, as text (up to 512 KiB).")] = None,
