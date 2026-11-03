@@ -14,7 +14,9 @@ async def test_server_lists_its_tools():
     listed = await shipshape.server.list_tools()
     assert {t.name for t in listed} == {"lint"}
     for t in listed:
-        assert t.description and t.annotations.read_only_hint is True and t.annotations.open_world_hint is True
+        assert t.description
+        assert t.annotations.read_only_hint is True and t.annotations.destructive_hint is False
+        assert t.annotations.idempotent_hint is True and t.annotations.open_world_hint is True
 
 
 async def test_shipshape_content_and_path(api, tmp_path):
