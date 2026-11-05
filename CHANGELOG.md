@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.3](https://github.com/hybridforgelab/shipshape-mcp/compare/hybridforgelab-shipshape-mcp-v0.2.2...hybridforgelab-shipshape-mcp-v0.2.3) (2026-11-05)
+
+
+### Bug Fixes
+
+* point api.market links at the bytestay store slug ([#15](https://github.com/hybridforgelab/shipshape-mcp/issues/15)) ([099e65a](https://github.com/hybridforgelab/shipshape-mcp/commit/099e65abf8ef7bf9d20de021b8542833471817e9))
+* point the RapidAPI listing links at the ByteStay org ([#14](https://github.com/hybridforgelab/shipshape-mcp/issues/14)) ([566f082](https://github.com/hybridforgelab/shipshape-mcp/commit/566f08249cc0a1bb0432e0650ac5bd1f8934c8c5))
+
+
+### Documentation
+
+* README badges ([#12](https://github.com/hybridforgelab/shipshape-mcp/issues/12)) ([c2e59ea](https://github.com/hybridforgelab/shipshape-mcp/commit/c2e59ea7f27c40f67d451cd94a58460014a43d47))
+
 ## [0.2.2](https://github.com/hybridforgelab/shipshape-mcp/compare/hybridforgelab-shipshape-mcp-v0.2.1...hybridforgelab-shipshape-mcp-v0.2.2) (2026-11-03)
 
 
