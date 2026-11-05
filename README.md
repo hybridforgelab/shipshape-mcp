@@ -21,7 +21,7 @@ The server is open source (MIT). It calls the [Shipshape API](https://shipshape.
 | marketplace | |
 |---|---|
 | RapidAPI | [plans](https://rapidapi.com/bytestay-bytestay-default/api/shipshape-dockerfile-and-kubernetes-lint-api/pricing) |
-| api.market | [store](https://api.market/store/hybrid-forge-lab/shipshape) |
+| api.market | [store](https://api.market/store/bytestay/shipshape) |
 
 ## 2. Add the server to your MCP client
 
